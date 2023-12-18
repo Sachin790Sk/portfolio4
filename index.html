@@ -104,6 +104,7 @@ font-size: 24px;
 margin: 10px;
 }
 
+
 /* Footer styles */
 footer {
 margin-top: 50px; /* Adjust this value to decrease the space above the footer */
@@ -138,6 +139,12 @@ padding: 10px;
 border: 1px solid #cccccc;
 border-radius: 5px;
 }
+#center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 </head>
@@ -156,7 +163,7 @@ border-radius: 5px;
 <a href="https://www.linkedin.com/in/sachin-kumar-mahato-b89421202?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
 <a href="https://www.facebook.com/profile.php?id=61553017622713&mibextid=LQQJ4d" target="_blank" title="Facebook"><i class="fab fa-facebook"></i></a>
 </div>
-<p class="click-text">Click the icons to reach me on social media</p>
+<p class="click-text">Click on an icon to reach me on social media</p>
 
 <p>Tools Used:</p>
 <div class="tool-icons">
@@ -177,8 +184,19 @@ border-radius: 5px;
 <input type="text" name="name" placeholder="Name">
 <input type="email" name="email" placeholder="Email">
 <textarea name="message" placeholder="Message"></textarea>
-<button type="submit">Send Message</button>
 </form>
+
+<section id="center">
+<tr>
+    <td>
+        <a href="https://sachin790sk.github.io/xyz/">
+            <button type="submit">Send Message</button>
+        </a>
+        
+    </td>
+</tr>
+</section>
+
 </section>
 
 <div class="contact-email">
